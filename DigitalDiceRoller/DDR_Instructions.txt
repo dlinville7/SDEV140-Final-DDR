@@ -1,0 +1,33 @@
+Digital Dice Roller Instructions
+
+Goal:
+The Digital Dice Roller (DDR) is designed to aid in the playing of tabletop wargames 
+by digitizing the tedious attack calculations. Any set of the predefined options will 
+work with the calculator and produce results. 
+
+DDR Usage Steps: 
+1. Press the "Clear" button to reset all entry boxes and result outputs.
+2. Select or enter values for each of the selection boxes. 
+3. Once all selections are made, press "Calculate". 
+4. The results of your attack rolls, with given options, will be output. 
+5. The "Number of Hits", "Number of Wounds", and "Damage" are the outputs. 
+6. Repeat steps 1-5 as necessary to perform new calculations.
+
+Game Sequence: 
+1. Player 1 rolls a six-sided die(D6) for each shot in the attack sequence. 
+2. The die will need to be >= to the attack's Ballistic Skill to be a hit
+3. Hits will then be tested to see if they wound the target. This is determined 
+by comparing attack Strength vs. target Toughness. 
+	- If Strength is twice Toughness: wound on 2+
+	- If Strength is > Toughness: wound on 3+ 
+	- If Strength is = Toughness: wound on 4+
+	- If Strength is < Toughness: wound on 5+
+	- If Strength is half Toughness: wound on 6+
+4. Player 1 will roll a new D6 for each hit and compare it to the previous matrix
+for wound chance. Tally number of wounds. 
+5. Player 2 will roll a D6 for each wound. The die value must be >= the target's
+Save value + (-Armor Penetration). 
+6. Subtract the number of Saves from the number of wounds to determine the amount of successful wounds. 
+7. Each successful wound will be multiplied by the attack's damage value and 
+allocated to the enemy. 
+
